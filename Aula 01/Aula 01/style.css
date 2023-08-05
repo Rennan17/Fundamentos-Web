@@ -1,0 +1,63 @@
+body {
+    border: 5px;
+    border-color: #0000;
+    margin: 15px;
+}
+
+.curriculum {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 50%;
+}
+
+section {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    padding: 20px;
+    border-radius: 25%;
+}
+
+.personal-informations {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    float: right;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+hr {
+    width: 98%;
+}
+
+.habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.education,
+.experience {
+    padding-left: 10px;
+}
