@@ -1,0 +1,102 @@
+body{
+    padding: 5px;
+    background-color: #03001b;
+}
+
+header, nav{
+    background-color: #040027;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    text-decoration: none;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 78px;
+    align-items: center;
+}
+
+.banner{
+    padding: 10px;
+    max-height: 100%;
+    display: grid;
+    place-items: center;
+
+}
+
+.bannerti{
+    max-width: 100%;
+    max-height: 100%;
+    width: 70%;
+    height: 80%;
+    border: solid 1PX #ffffff;
+    border-radius: 2%;
+    }
+
+.campos{
+    color: #ffffff;
+    margin-left: 40px;
+    font-size: large;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.campos-relevancia{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.conheca{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  
+  
+  .btn span {
+    color: white;
+    font-size: large;
+  }
+
+  footer{
+    margin-top: 100px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+  }
