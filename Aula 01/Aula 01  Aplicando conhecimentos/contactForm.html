@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#"><img src="img/FCI.png" alt="Logo"></a>
+            <a href="index.html">
+                <h3>O que é T.I</h3>
+            </a>
+            <a href="index.html">
+                <h3>Relevância</h3>
+            </a>
+            <a href="index.html">
+                <h3>Conheça um pouco</h3>
+            </a>
+            <a href="index.html">
+                <h3>Áreas a serem seguidas</h3>
+            </a>
+            <a href="contactForm.html" target="_blank">
+                <h3>Contato</h3>
+            </a>
+        </nav>
+    </header>
+    
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="idade">Idade:</label></td>
+                <td><input type="number" id="idade" name="idade"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>Qual é o seu curso?</label><br>
+                    <input type="radio" id="si" name="curso" value="si">
+                    <label for="si">Sistemas da Informação</label><br>
+                    <input type="radio" id="cd" name="curso" value="cd">
+                    <label for="cd">Ciência de Dados</label><br>
+                    <input type="radio" id="ads" name="curso" value="ads">
+                    <label for="ads">Análise e Desenvolvimento de Sistemas</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="cidade">Cidade:</label></td>
+                <td><input type="text" id="cidade" name="cidade"></td>
+            </tr>
+            <tr>
+                <td><label for="estado">Estado:</label></td>
+                <td><input type="text" id="estado" name="estado"></td>
+            </tr>
+            <tr>
+            <tr>
+                <tr>
+                    <td><label for="interesses">Interesses:</label></td>
+                    <td>
+                        <input type="checkbox" id="interesse1" name="interesses" value="programacao">
+                        <label for="interesse1">Programação</label><br>
+                        <input type="checkbox" id="interesse2" name="interesses" value="design">
+                        <label for="interesse2">Design</label><br>
+                        <input type="checkbox" id="interesse3" name="interesses" value="redes">
+                        <label for="interesse3">Redes</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="comentarios">Comentários:</label></td>
+                    <td><textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                <td colspan="2"><input type="submit" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        <p>Entre em contato: rsmoura252@gmail.com</p>
+        <p>Autor: Rennan Moura</p>
+    </footer>
+    
+</body>
+</html>

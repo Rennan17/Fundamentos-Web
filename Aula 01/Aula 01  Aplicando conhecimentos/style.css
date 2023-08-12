@@ -93,10 +93,9 @@ a{
     color: white;
     font-size: large;
   }
-
-  footer{
-    margin-top: 100px;
-    color: #ffffff;
-    display: grid;
-    place-items: center;
-  }
+  footer {
+    background-color: #292969;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
